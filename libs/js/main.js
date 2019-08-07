@@ -1,4 +1,4 @@
-const url ="	https://api.funtranslations.com/translate/yoda.json"
+const url ="https://api.funtranslations.com/translate/yoda.json"
 
 
 
