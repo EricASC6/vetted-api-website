@@ -62,17 +62,3 @@ const createForecastCards = (data) => {
 
 
 
-fetch(url)
-.then(function(response){
-    return response.json();
-})
-.then(function(json){
-    const data = json.properties.periods;
-    const filteredData = getNeededData(data);
-
-
-    createForecastCards(filteredData);
-
-    console.table(filteredData);
-
-});
