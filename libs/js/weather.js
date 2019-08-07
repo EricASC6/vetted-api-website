@@ -20,7 +20,7 @@ const getNeededData = (data) => {
 
 
 const createForecastCards = (data) => {
-    const body = document.querySelector("body");
+    const weatherForecast = document.querySelector(".weather-forecast");
 
     for (let info of data) {
         // Div to display all the data
@@ -56,7 +56,7 @@ const createForecastCards = (data) => {
         forecast.appendChild(infoList);
 
         // Appending div to body
-        body.appendChild(forecast);
+        weatherForecast.appendChild(forecast);
     }
 }
 
