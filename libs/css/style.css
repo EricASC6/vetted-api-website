@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    background-image: url(https://wallpaperplay.com/walls/full/d/8/0/124191.jpg);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin: 0;
+}
+
+h1{
+    display: flex;
+    background-color: rgba(60,60,32, 0.3);
+    border: solid 3px #9d9974;
+    padding: 8px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 8px;
+    font-weight: 900px;
+    color: #bbe97e;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.yoda-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(255,255,255,0.3); */
+    background-color: rgba(60,60,32, 0.3);
+    border: solid 3px #9d9974;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.weather-forecast{
+    display: flex;
+    background-color: rgba(60,60,32, 0.3);
+    border: solid 3px #9d9974;
+    padding: 8px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 8px;
+    font-weight: 900px;
+    color: #bbe97e;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+button{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: rgba(60,60,32, 0.3);
+    border: solid 3px #9d9974;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 30px;
+    justify-content: space-around;
+    align-items: center;
+    color: #bbe97e;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: rgba(60,60,32, 0.8);
+}
