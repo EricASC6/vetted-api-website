@@ -27,6 +27,12 @@ h1{
     flex-flow: column wrap;
 }
 
+@media(max-width: 320px){
+    h1{
+        font-size: 40px;
+    }
+}
+
 .yoda-image{
     display: flex;
     align-items: center;
