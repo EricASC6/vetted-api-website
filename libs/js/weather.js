@@ -55,7 +55,7 @@ const createForecastCards = (data) => {
         forecast.appendChild(img);
         forecast.appendChild(infoList);
 
-        // Appending div to body
+        // Appending div to weather forecast
         weatherForecast.appendChild(forecast);
     }
 }
