@@ -1,6 +1,8 @@
 // Weather API
 const url = "https://api.weather.gov/gridpoints/TOP/31,80/forecast";
 
+const yodaUrl ="https://api.funtranslations.com/translate/yoda.json";
+
 
 // Filters the data to get the name, temperature, icon and shortForecast
 const getNeededData = (data) => {
@@ -57,6 +59,16 @@ const createForecastCards = (data) => {
 
         // Appending div to weather forecast
         weatherForecast.appendChild(forecast);
+
+
+        // for (let i = 0; i < filteredData.length; i++) {
+        //     fetch(yodaUrl + "?text=hello").then(function(response){
+        //         return response.json()
+        //         })
+        //         .then(function(myJson){
+        //             console.log(myJson)
+        //         });
+        // }
     }
 }
 
