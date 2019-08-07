@@ -38,7 +38,7 @@ const createForecastCards = (data) => {
 
         // Temperature data
         const temperature = document.createElement("li");
-        temperature.innerText = `${info.temp} F`;
+        temperature.innerText = `${info.temp} °F`;
         
         // Forecast data
         const shortForecast = document.createElement("li");
@@ -46,6 +46,7 @@ const createForecastCards = (data) => {
 
         // Image 
         const img = document.createElement("img");
+        img.className = "weather-pics";
         img.src = info.icon;
 
         // Appending li to infoList
